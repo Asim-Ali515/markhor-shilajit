@@ -1,8 +1,8 @@
 import { motion } from "framer-motion";
-import Hand from "../assets/img/hand.svg"
 import C1 from "../assets/img/C1.svg"
 import C2 from "../assets/img/C2.svg"
 import C3 from "../assets/img/C3.svg"
+import Hand from "../assets/img/hand.svg"
 import Jar from "../assets/img/jar-bottle.svg"
 import HandCircle from "../assets/img/handcircle.svg"
 import { useInView } from "react-intersection-observer";
