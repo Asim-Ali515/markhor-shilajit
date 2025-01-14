@@ -1,7 +1,8 @@
+import { motion } from "framer-motion";
 import Jar from "../assets/img/jar-bottle.svg";
 import Footerbg from "../assets/img/footerbg.svg";
 
-const Footer: React.FC = () => {
+const Footer = () => {
   return (
     <footer className="w-full relative">
       <img
@@ -9,8 +10,7 @@ const Footer: React.FC = () => {
         alt="footer bg"
         className="w-full h-auto object-cover "
       />
-
-      <img
+      <motion.img
         src={Jar}
         alt="Jar"
         className="absolute lg:bottom-[22.5%] lg:size-80 lg:left-[70%] lg:transform lg:-translate-x-1/2 

@@ -5,12 +5,14 @@ import Feature from "./components/feature";
 
 const App = () => {
   return (
-    <>
-      <Navbar />
+    <div>
+      <div className="sticky z-[2] inset-x-0">
+        <Navbar />
+      </div>
       <Hero />
       <Feature />
-      <Footer />  
-    </>
+      <Footer />
+    </div>
   );
 };
 
