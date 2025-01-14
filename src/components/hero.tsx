@@ -121,7 +121,7 @@ const Hero = () => {
             <motion.img
               src={Cap}
               alt="cap"
-              className="absolute z-[1] bottom-[43%] size-[76%] md:size-44 md:bottom-[38%] lg:bottom-[44%] lg:size-[63%]"
+              className="absolute z-[1] bottom-[43%] size-[75%] md:size-44 md:bottom-[38%] lg:bottom-[44%] lg:size-[63%]"
               initial={{ y: "-100vh" }}
               animate={animateCap ? { y: 0 } : { y: "-100vh" }}
               transition={{ duration: 1.2, ease: "easeOut" }}
